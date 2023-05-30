@@ -18,7 +18,7 @@ function About() {
             <img src="/hand.png" alt="waving-hand" />
           </div>
           <p>
-            Hi, I'm Omar Hamid. A passionate Full-Stack Web Developer based in
+            Hi, I'm Omar. A passionate Full-Stack Web Developer based in
             Calgary, Alberta 📍
           </p>
           <div className="socials">
