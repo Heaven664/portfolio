@@ -1,0 +1,22 @@
+@import "styles/variables";
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  box-shadow: 0 0 10px rgba(0,0,0,.09);
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 25px 40px;
+  width: 100%;
+  z-index: 200;
+  min-width: 350px;
+
+  .navbar-hero-name{
+    color: #2d2e32;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
