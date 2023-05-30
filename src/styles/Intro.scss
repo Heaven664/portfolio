@@ -1,7 +1,7 @@
-.intro-container{
+.intro-container {
   display: flex;
   justify-content: center;
-  
+
   .about {
     max-width: 750px;
     padding-top: 100px;
@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
+
     .image {
       min-width: 350px;
       min-height: 350px;
@@ -23,7 +23,7 @@
       border: 3px solid #2d2e32;
       animation: morph 8s ease-in-out infinite;
     }
-  
+
     @keyframes morph {
       0% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
@@ -35,13 +35,13 @@
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
       }
     }
-  
+
     .about-text {
       min-width: 400px;
       display: flex;
       flex-direction: column;
       align-items: center;
-  
+
       .about-title {
         font-size: 20px;
         line-height: 1.2;
@@ -50,11 +50,11 @@
         display: flex;
         justify-content: center;
         position: relative;
-  
+
         h1 {
           width: 300px;
         }
-  
+
         img {
           width: 60px;
           height: 60px;
@@ -71,56 +71,55 @@
         line-height: 1.6;
         margin-bottom: 1rem;
       }
-  
+
       .socials {
         font-size: 40px;
         margin-bottom: 30px;
-  
+
         #linkedIn-link {
           color: #0077b5;
         }
-  
+
         #github-link {
           color: black;
           margin-left: 20px;
         }
-  
+
         a {
           text-decoration: none;
         }
       }
-  
+
       .tech-stack {
-  
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
         p {
           border-bottom: 1px solid black;
           padding: 8px 15px;
           width: 150px;
         }
-  
+
         ul {
           padding: 0 20px;
           list-style: none;
           display: flex;
           flex-wrap: wrap;
           gap: 30px;
-  
+          margin-bottom: 50px;
+
           li {
-            // width: 6.5rem;
-            // height: 6.5rem;
             display: flex;
             align-items: center;
             justify-content: center;
             border-radius: 50%;
             background-color: white;
             cursor: pointer;
+
             img {
               width: 48px;
-  
             }
           }
         }
