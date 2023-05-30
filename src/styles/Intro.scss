@@ -1,89 +1,129 @@
-.about {
-  padding-top: 100px;
+.intro-container{
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-
-  .image {
-    min-width: 350px;
-    min-height: 350px;
-    width: 80vw;
-    height: 80vw;
-    max-width: 350px;
-    max-height: 350px;
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
-    border: 3px solid #2d2e32;
-    animation: morph 8s ease-in-out infinite;
-  }
-
-  @keyframes morph {
-    0% {
-      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    }
-    50% {
-      border-radius: 40% 60% 70% 30%/30% 70% 40% 60%;
-    }
-    100% {
-      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    }
-  }
-
-  .about-text {
-    min-width: 400px;
+  
+  .about {
+    max-width: 750px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-
-    .about-title {
-      font-size: 20px;
-      line-height: 1.2;
-      margin-bottom: 2rem;
-      margin-top: 2rem;
+  
+    .image {
+      min-width: 350px;
+      min-height: 350px;
+      width: 80vw;
+      height: 80vw;
+      max-width: 350px;
+      max-height: 350px;
+      background-size: cover;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      border: 3px solid #2d2e32;
+      animation: morph 8s ease-in-out infinite;
+    }
+  
+    @keyframes morph {
+      0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+      }
+      50% {
+        border-radius: 40% 60% 70% 30%/30% 70% 40% 60%;
+      }
+      100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+      }
+    }
+  
+    .about-text {
+      min-width: 400px;
       display: flex;
-      justify-content: center;
-      position: relative;
-
-      h1 {
-        width: 300px;
+      flex-direction: column;
+      align-items: center;
+  
+      .about-title {
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        position: relative;
+  
+        h1 {
+          width: 300px;
+        }
+  
+        img {
+          width: 60px;
+          height: 60px;
+          position: absolute;
+          right: -10px;
+          top: 17px;
+        }
       }
-
-      img {
-        width: 60px;
-        height: 60px;
-        position: absolute;
-        right: -10px;
-        top: 17px;
+      p {
+        margin: 0 20px;
+        text-align: center;
+        font-weight: 500;
+        color: #555555;
+        line-height: 1.6;
+        margin-bottom: 1rem;
       }
-    }
-    p {
-      margin: 0 20px;
-      text-align: center;
-      font-weight: 500;
-      color: #555555;
-      line-height: 1.6;
-      margin-bottom: 1rem;
-    }
-
-    .socials {
-      font-size: 40px;
-
-      #linkedIn-link {
-        color: #0077B5;
+  
+      .socials {
+        font-size: 40px;
+        margin-bottom: 30px;
+  
+        #linkedIn-link {
+          color: #0077b5;
+        }
+  
+        #github-link {
+          color: black;
+          margin-left: 20px;
+        }
+  
+        a {
+          text-decoration: none;
+        }
       }
-
-      #github-link {
-        color: black;
-      }
-
-      a {
-        text-decoration: none;
-      }
-
-      .social-icon {
-        margin-left: 20px;
+  
+      .tech-stack {
+  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p {
+          border-bottom: 1px solid black;
+          padding: 8px 15px;
+          width: 150px;
+        }
+  
+        ul {
+          padding: 0 20px;
+          list-style: none;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 30px;
+  
+          li {
+            // width: 6.5rem;
+            // height: 6.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: white;
+            cursor: pointer;
+            img {
+              width: 48px;
+  
+            }
+          }
+        }
       }
     }
   }
