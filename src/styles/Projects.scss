@@ -1,0 +1,32 @@
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+
+  .projects-content {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .projects-title {
+      color: #147efb;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .projects-more-description {
+      text-align: center;
+      max-width: 530px;
+      color: #2d2e32;
+      font-size: 23px;
+      line-height: 1.4;
+      margin-bottom: 2rem;
+    }
+  }
+}

@@ -17,11 +17,14 @@ function About() {
             career change to computer science driven by my passion for a more
             creative and dynamic field of study. With a commitment to
             continuously improve my skills and knowledge, I am eager to
-            contribute to the computer science community. Currently, I focus on
-            web technologies like JavaScript, Python, React, and Next.js.
-            Improving the comprehensive understanding of advanced data
-            structures to enhance code efficiency and gain a comprehensive
-            understanding latest web technologies.
+            contribute to the computer science community.{" "}
+          </p>{" "}
+          <p>
+            {" "}
+            Currently, I focus on web technologies like JavaScript, Python,
+            React, and Next.js. Improving the comprehensive understanding of
+            advanced data structures to enhance code efficiency and gain a
+            comprehensive understanding latest web technologies.
           </p>
         </div>
       </div>
