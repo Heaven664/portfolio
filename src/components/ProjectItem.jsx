@@ -14,11 +14,11 @@ function ProjectItem(props) {
       <div className="project-info">
         <h4 className="project-title">{props.title}</h4>
         <p className="project-description">{props.description}</p>
-        <div className="project-stack">
+        <ul className="project-stack">
           {props.stack.map((element) => (
-            <p key={element}> {element}</p>
+            <li><p key={element}> {element}</p></li>
           ))}
-        </div>
+        </ul>
         <div className="project-links">
           <a href={props.github} target="_blank" rel="noreferrer">
             <p>Code</p>

@@ -4,15 +4,21 @@
   align-items: center;
   background-color: rgb(218, 218, 213);
   height: 100px;
+  padding-bottom: 10px;
 
   h3 {
     font-size: 25px;
     color: rgb(18, 162, 27);
-
-    .footer-emoji {
-      margin-left: 10px;
-      font-size: 70px;
-      cursor: pointer;
-    }
   }
+  .footer-emoji {
+    margin-left: 10px;
+    font-size: 70px;
+    cursor: pointer;
+    transition: transform 2.6s;
+  }
+  
+  .footer-emoji:hover {
+    transform: rotate(360deg);
+  }
+  
 }
