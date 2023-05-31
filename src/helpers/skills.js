@@ -1,4 +1,4 @@
-export default [
+const skills = [
   {
     img: "js-icon",
     title: "JavaScript",
@@ -72,3 +72,5 @@ export default [
     title: "SCSS",
   },
 ];
+
+export default skills;

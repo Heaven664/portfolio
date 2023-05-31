@@ -6,7 +6,11 @@ import "styles/ProjectItem.scss";
 function ProjectItem(props) {
   return (
     <div className="project-container">
-      <img src="/project-dummy.jpeg" className="project-image" />
+      <img
+        src="/project-dummy.jpeg"
+        className="project-image"
+        alt={props.title}
+      />
       <div className="project-info">
         <h4 className="project-title">{props.title}</h4>
         <p className="project-description">{props.description}</p>
@@ -16,11 +20,11 @@ function ProjectItem(props) {
           ))}
         </div>
         <div className="project-links">
-          <a href={props.github} target="_blank">
+          <a href={props.github} target="_blank" rel="noreferrer">
             <p>Code</p>
             <FontAwesomeIcon icon={faGithub} className="github-repo" />
           </a>
-          <a href="">
+          <a href="" rel="noreferrer" target="_blank">
             <p>Demo</p>
             <FontAwesomeIcon
               icon={faArrowUpRightFromSquare}

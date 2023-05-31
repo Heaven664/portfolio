@@ -5,7 +5,7 @@ function About() {
     <div className="about-container">
       <div className="about-content">
         <div className="image-side">
-          <img src="/about-image.jpeg" alt="about-image" id="about-image" />
+          <img src="/about-image.jpeg" alt="my-workspace" id="about-image" />
         </div>
         <div className="text-side">
           <h3>ABOUT ME</h3>

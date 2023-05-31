@@ -25,6 +25,7 @@ function About() {
             <a
               href="https://www.linkedin.com/in/omarhamid664/"
               target="_blank"
+              rel="noreferrer"
               id="linkedIn-link"
             >
               <FontAwesomeIcon icon={faLinkedin} />
@@ -32,6 +33,7 @@ function About() {
             <a
               href="https://github.com/Heaven664"
               target="_blank"
+              rel="noreferrer"
               id="github-link"
             >
               <FontAwesomeIcon icon={faGithubSquare} />
