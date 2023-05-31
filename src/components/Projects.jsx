@@ -13,18 +13,15 @@ function Projects() {
         <ProjectItem
           title="Wish Whisper"
           description="Wish Whisper is a social networking platform focused on event organization.
-           With features like event creation, integrated fundraising, and group/private live chats, 
-           it simplifies event planning and enhances communication.
-           It also offers friendlist management and profile customization."
+           With features like event creation, integrated fundraising, and group/private live chats"
           stack={["React", "Express.js", "PostgreSQL", "SCSS"]}
           github="https://github.com/Heaven664/final-project"
         />
         <ProjectItem
           title="Scheduler"
-          description="The Interview Scheduler is a application designed to simplify the process of scheduling job interviews.
-          This application makes it easy for interviewers and
-          candidates alike to schedule interviews without any hassle. With the Interview Scheduler,
-          users can easily create and manage interview schedules, track candidate availability."
+          description="The Interview Scheduler is a application for scheduling job interviews.
+          With the Interview Scheduler,
+          users can easily create and manage interview schedules and track candidate availability."
           stack={["React", "Express.js", "PostgreSQL", "SCSS"]}
           github="https://github.com/Heaven664/scheduler"
         />
