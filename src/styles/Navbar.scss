@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: space-between;
   font-size: 1.4rem;
-  box-shadow: 0 0 10px rgba(0,0,0,.09);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
   position: fixed;
   left: 0;
   top: 0;
@@ -16,9 +16,45 @@
   background-color: white;
   height: 80px;
 
-  .navbar-hero-name{
+  .navbar-hero-name {
     color: #2d2e32;
     font-size: 1.3rem;
     font-weight: 600;
+  }
+
+  .hamburger-menu {
+    cursor: pointer;
+    ul {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+
+      li:hover {
+        color: #147efb;
+      }
+
+      .nav-item {
+        font-size: 18px;
+
+        @media (max-width: 900px) {
+          display: none;
+        }
+      }
+      .nav-handler {
+        @media (min-width: 901px) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .mobile-nav {
+    &.closed-menu {
+      display: none;
+    }
+    &.open-menu {
+      width: 100vw;
+      height: 100vh;
+    }
   }
 }
