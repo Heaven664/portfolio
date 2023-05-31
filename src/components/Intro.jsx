@@ -6,7 +6,7 @@ import "styles/Intro.scss";
 
 function About() {
   return (
-    <div className="intro-container">
+    <div className="intro-container" id='home'>
       <div className="about">
         <div
           className="image"

@@ -5,7 +5,7 @@ import "styles/ProjectItem.scss";
 
 function ProjectItem(props) {
   return (
-    <div className="project-container">
+    <div className="project-container" >
       <img
         src="/project-dummy.jpeg"
         className="project-image"

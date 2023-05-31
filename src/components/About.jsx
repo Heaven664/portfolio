@@ -2,7 +2,7 @@ import "styles/About.scss";
 
 function About() {
   return (
-    <div className="about-container">
+    <div className="about-container" id='about'>
       <div className="about-content">
         <div className="image-side">
           <img src="/about-image.jpeg" alt="my-workspace" id="about-image" />

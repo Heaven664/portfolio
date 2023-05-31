@@ -4,7 +4,7 @@ import "styles/Projects.scss";
 
 function Projects() {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <div className="projects-content">
         <h3 className="projects-title">Portfolio</h3>
         <h4 className="projects-more-description">
