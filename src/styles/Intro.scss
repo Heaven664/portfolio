@@ -20,7 +20,7 @@
       @media (min-width: 1000px) {
         flex-direction: row-reverse;
         margin-bottom: 20px;
-        gap: 10vw;
+        gap: 15vw;
       }
 
       .image {
@@ -131,6 +131,7 @@
       margin-bottom: 30px;
 
       p {
+        text-align: center;
         border-bottom: 1px solid black;
         padding: 8px 15px;
         width: 150px;
