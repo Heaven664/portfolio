@@ -5,7 +5,7 @@ import "styles/ProjectItem.scss";
 
 function ProjectItem(props) {
   return (
-    <div className="project-container" >
+    <div className="project-container">
       <img
         src="/project-dummy.jpeg"
         className="project-image"
@@ -16,7 +16,9 @@ function ProjectItem(props) {
         <p className="project-description">{props.description}</p>
         <ul className="project-stack">
           {props.stack.map((element) => (
-            <li><p key={element}> {element}</p></li>
+            <li>
+              <p key={element}> {element}</p>
+            </li>
           ))}
         </ul>
         <div className="project-links">
@@ -24,7 +26,7 @@ function ProjectItem(props) {
             <p>Code</p>
             <FontAwesomeIcon icon={faGithub} className="github-repo" />
           </a>
-          <a href="" rel="noreferrer" target="_blank">
+          <a href={props.demo} rel="noreferrer" target="_blank">
             <p>Demo</p>
             <FontAwesomeIcon
               icon={faArrowUpRightFromSquare}

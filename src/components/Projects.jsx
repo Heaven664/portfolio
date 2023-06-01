@@ -16,6 +16,7 @@ function Projects() {
            With features like event creation, integrated fundraising, and group/private live chats"
           stack={["React", "Express.js", "PostgreSQL", "SCSS"]}
           github="https://github.com/Heaven664/final-project"
+          demo="https://youtu.be/tgCG9Fb9ORQ"
         />
         <ProjectItem
           title="Scheduler"
@@ -24,6 +25,7 @@ function Projects() {
           users can easily create and manage interview schedules and track candidate availability."
           stack={["React", "Express.js", "PostgreSQL", "SCSS"]}
           github="https://github.com/Heaven664/scheduler"
+          demo="https://youtu.be/h_KxW8L2O90"
         />
         <ProjectItem
           title="My Blog"
@@ -31,6 +33,7 @@ function Projects() {
           while also providing the ability to enhance their content by attaching images."
           stack={["Flask", "Jinja", "SQLite"]}
           github="https://github.com/Heaven664/my-blog"
+          demo="https://youtu.be/r8cbJpA9-bQ"
         />
       </div>
     </div>
