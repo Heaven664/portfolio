@@ -12,6 +12,7 @@ function Projects() {
         </h4>
         <ProjectItem
           title="Wish Whisper"
+          img='Wish.png'
           description="Wish Whisper is a social networking platform focused on event organization.
            With features like event creation, integrated fundraising, and group/private live chats"
           stack={["React", "Express.js", "PostgreSQL", "SCSS"]}
@@ -20,6 +21,7 @@ function Projects() {
         />
         <ProjectItem
           title="Scheduler"
+          img='Scheduler.png'
           description="The Interview Scheduler is a application for scheduling job interviews.
           With the Interview Scheduler,
           users can easily create and manage interview schedules and track candidate availability."
@@ -29,6 +31,7 @@ function Projects() {
         />
         <ProjectItem
           title="My Blog"
+          img='Blog.png'
           description="This project is a versatile blog application that allows users to read and create posts, 
           while also providing the ability to enhance their content by attaching images."
           stack={["Flask", "Jinja", "SQLite"]}

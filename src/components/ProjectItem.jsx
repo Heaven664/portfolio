@@ -6,18 +6,16 @@ import "styles/ProjectItem.scss";
 function ProjectItem(props) {
   return (
     <div className="project-container">
-      <img
-        src="/project-dummy.jpeg"
-        className="project-image"
-        alt={props.title}
-      />
+      <a href={props.demo} target="_blank" rel="noreferrer">
+        <img src={props.img} className="project-image" alt={props.title} />
+      </a>
       <div className="project-info">
         <h4 className="project-title">{props.title}</h4>
         <p className="project-description">{props.description}</p>
         <ul className="project-stack">
           {props.stack.map((element) => (
-            <li>
-              <p key={element}> {element}</p>
+            <li key={element}>
+              <p> {element}</p>
             </li>
           ))}
         </ul>
