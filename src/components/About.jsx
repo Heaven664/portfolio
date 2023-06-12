@@ -10,7 +10,7 @@ function About() {
         <div className="text-side">
           <h3>ABOUT ME</h3>
           <h4>
-            A dedicated Front-end Developer <br /> based in Calgary, Alberta 📍
+            A dedicated Full-Stack Developer <br /> based in Calgary, Alberta 📍
           </h4>
           <p>
             After graduating as a mechanical engineering student, I made a
@@ -21,7 +21,7 @@ function About() {
           </p>{" "}
           <p>
             {" "}
-            Currently, I focus on web technologies like JavaScript, Python,
+            Currently, I focus on web technologies like JavaScript, TypeScript,
             React, and Next.js. Improving the comprehensive understanding of
             advanced data structures to enhance code efficiency and gain a
             comprehensive understanding latest web technologies.
