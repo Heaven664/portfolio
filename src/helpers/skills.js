@@ -1,5 +1,9 @@
 const skills = [
   {
+    img: "typescript-icon",
+    title: "TypeScript",
+  },
+  {
     img: "js-icon",
     title: "JavaScript",
   },
@@ -14,6 +18,10 @@ const skills = [
   {
     img: "c-icon",
     title: "C",
+  },
+  {
+    img: "nextjs-icon",
+    title: "Next.js",
   },
   {
     img: "react-icon",
