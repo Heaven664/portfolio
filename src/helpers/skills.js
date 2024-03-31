@@ -12,12 +12,12 @@ const skills = [
     title: "Python",
   },
   {
-    img: "ruby-icon",
-    title: "Ruby",
+    img: "nodejs-icon",
+    title: "Node.js",
   },
   {
-    img: "c-icon",
-    title: "C",
+    img: "nestjs-icon",
+    title: "Nest.js"
   },
   {
     img: "nextjs-icon",
@@ -28,18 +28,6 @@ const skills = [
     title: "React",
   },
   {
-    img: "nodejs-icon",
-    title: "Node.js",
-  },
-  {
-    img: "sqlite-icon",
-    title: "SQLite",
-  },
-  {
-    img: "psql-icon",
-    title: "PostgreSQL",
-  },
-  {
     img: "expressjs-icon",
     title: "Express",
   },
@@ -48,12 +36,12 @@ const skills = [
     title: "Flask",
   },
   {
-    img: "rails-icon",
-    title: "Rails",
+    img: "mongodb-icon",
+    title: "MongoDB",
   },
   {
-    img: "jquery-icon",
-    title: "jQuery",
+    img: "sql-icon",
+    title: "SQL",
   },
   {
     img: "jest-icon",
